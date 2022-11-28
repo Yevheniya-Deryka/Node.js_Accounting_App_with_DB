@@ -3,6 +3,7 @@
 const port = process.env.PORT || 5000;
 
 const express = require('express');
+const path = require('path');
 
 // const { setupTables } = require('./utiles/setupTables.js');
 const { userRouter } = require('./routers/user.js');
@@ -14,8 +15,8 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/hello', (req, res) => {
-  res.send('Hello from Expense server');
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, './front/index.html'));
 });
 
 app.use('/users', userRouter);
