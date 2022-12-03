@@ -1,6 +1,11 @@
-# Accounting app (with Node.js and PostgreSQL)
-Take the Accounting app from prev lesson and use PostgreSQL as a storage
+# Node.js Accounting app with Postgres DB hosted on Railway
 
-- Implement CRUD page to manage categories
+- [DEMO LINK](https://accounting-app-with-db-production.up.railway.app/)
 
-**Read [the guideline](https://github.com/mate-academy/js_task-guideline/blob/master/README.md) before start**
+## Technologies:
+- Node.js
+- Express
+- Sequelize
+- PostgreSQL
+- REST-methodology
+- Bulma for documentation styles
