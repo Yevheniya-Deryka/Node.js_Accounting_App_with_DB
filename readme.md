@@ -1,5 +1,6 @@
 # Node.js Accounting app with Postgres DB hosted on Railway
 
+You can read documentation and test server on:
 - [DEMO LINK](https://accounting-app-with-db-production.up.railway.app/)
 
 ## Technologies:
