@@ -9,4 +9,5 @@ You can read documentation and test the server on:
 - Sequelize
 - PostgreSQL
 - REST-methodology
+- JavaScript
 - Bulma for documentation styles
